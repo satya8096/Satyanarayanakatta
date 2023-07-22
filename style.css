@@ -168,7 +168,7 @@ nav{
 }
 .strenths p, .hobbies p, .goals p{
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .achivehead{
     margin-top: 70px;
@@ -243,13 +243,13 @@ nav{
     font-size: 20px;
     height: 50px;
     padding-top:10px ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Signika Negative', sans-serif;
     background-color: rgba(0, 0, 0, 0.599);
 }
 
 .btech{
     background-color: rgba(34, 85, 136, 0.596);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Signika Negative', sans-serif;
     letter-spacing: 2px;
     width: 100%;
     height: 100%;
@@ -280,7 +280,7 @@ nav{
 
 .skillmain{
     width: 100%;
-   padding: 10% 0%;
+    padding: 10% 0%;
 }
 .maincontentskills img{
     width: 320px;
@@ -400,6 +400,7 @@ nav{
 
 
 /* Projects Styles */
+
 .projectsmain{
     padding: 8% 0% 10% 0%;
 }
@@ -452,7 +453,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .projecttechnology p{
     display: inline-block;
@@ -464,7 +465,7 @@ nav{
 }
 .projectlinks a{
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .projectbox:hover{
     scale: 1.025;
@@ -492,7 +493,7 @@ nav{
 }
 .contactbox{
     width: 40%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .conatctdetailsbox p{
     padding: 6px 10px;
@@ -511,6 +512,7 @@ nav{
     border: none;
     outline: none;
     box-shadow: 0px 0px 3px black;
+    font-family: 'Signika Negative', sans-serif;
 }
 .contactformbox textarea{
     width: 100%;
@@ -545,7 +547,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     margin: 1% 4%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .loginbackimg{
     margin-bottom: 20px;
@@ -567,7 +569,7 @@ nav{
     position: relative;
 }
 .backButton{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     position: absolute;
     top: 30px;
     left: 30px;
@@ -603,25 +605,25 @@ nav{
     border-radius: 6px;
     border: none;
     outline: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .signInInputs h2 , .signUpInputs h2{
     font-family: 'Signika Negative', sans-serif;
 }
 .signInInputs p , .signUpInputs p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .checkbox{
     display: inline;
 }
 .signInForm button{
     width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 
 .backButtonSignUp {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .containerForSignUp{
@@ -675,14 +677,14 @@ nav{
     border-radius: 6px;
     border: none;
     outline: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .checkbox{
     display: inline;
 }
 .signUpForm button{
     width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 
@@ -712,7 +714,7 @@ footer ul li:hover{
    text-decoration: underline;
 }
 .copyright p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     letter-spacing: 1px;
 }
 
