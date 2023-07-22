@@ -520,7 +520,7 @@ nav{
 .copyn , .copye ,.copyw , .copya{
     position: absolute;
     right: 10px;
-    top: 3px;
+    top: 0px;
     color: white;
     border-radius: 10px;
     font-size: 18px;
