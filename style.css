@@ -1,0 +1,968 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&family=Itim&family=Kalam:wght@400;700&family=Libre+Baskerville&family=Merriweather&family=Niconne&family=Oleo+Script&family=Shrikhand&family=Signika+Negative:wght@700&family=Ysabeau+Infant:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+}
+/* NavBar Styles */
+nav{
+    background-color: rgb(244, 244, 244);
+    box-shadow: 1px -4px 10px #258;
+}
+.logo{
+    font-size: 50px;
+    color: #258;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.navcontainer{
+    z-index: 1000;
+}
+.navcontainer .li{
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.navcontainer .li a{
+    color: rgb(18, 18, 18);
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.btn1{
+    margin-left: 70px;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.btn1 a{
+    padding: 20px 8px;
+    height: 30px;
+}
+.bars{
+    font-size: 35px;
+    position: fixed;
+    right: -200px;
+    cursor: pointer;
+}
+.loginbutton:hover{
+    color: white; 
+}
+.navcontainer ul a{
+    transition: 0.4s;
+}
+.navcontainer ul a:hover{
+    color: #3590F3;
+}
+
+
+
+/* Nav open Close */
+.navcontainer.open{
+    left: 0px;
+}
+
+
+
+
+
+/* Maincontent Styles */
+
+.homemain{
+    padding-bottom: 8% ;
+}
+.name{
+    font-family: 'Niconne', cursive;
+    font-size: 55px;
+    text-shadow: 1px 1px 10px blue;
+}
+.icons{
+    padding: 4px 0px;
+}
+.icons i{
+    font-size: 26px;
+    transition: 0.9s;
+}
+.icons a{
+    text-decoration: none;
+}
+.readmore{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mainimg{
+    border-radius: 10px;
+    animation: mainimgcolor 6s infinite;
+}
+.mainimg img{
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.role{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+}
+.homecertificates{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.certificatemarquee img{
+    width: 30%;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+/* Top Button */
+
+.topbutton{
+    position: fixed;
+    right: 18px;
+    top: 92%;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: #00AF54;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topbutton a{
+    padding: 20px 9px;
+    color: white;
+}
+
+/* About styles */
+
+.aboutmaintext{
+    width: 40%;
+}
+.aboutmaintext p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 26px;
+    font-size: 17px;
+    margin: 15px 0px;
+}
+.aboutmaintext button{
+    font-family: 'Signika Negative', sans-serif;
+    margin-bottom: 10px;
+}
+.aboutmehead{
+    font-family: 'Signika Negative', sans-serif;
+    letter-spacing: 2px;
+}
+
+.strenths , .hobbies , .goals{
+    width: 50%;
+    height: 220px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px blue;
+}
+.strenths h1, .hobbies h1, .goals h1{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    letter-spacing: 2px;
+}
+.strenths p, .hobbies p, .goals p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.achivehead{
+    margin-top: 70px;
+    letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    box-shadow: 1px 1px 10px blue;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.greeks , .codemind , .leetcode , .codecheff , .cyber , .awsbadge{
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    left: -600px;
+    transition: 0.6s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.714);
+    color: white;
+    padding: 2px;
+}
+.box:hover .greeks ,.box:hover .codemind ,.box:hover .leetcode ,.box:hover .codecheff ,.box:hover .cyber ,.box:hover .awsbadge{
+    left: 0px;
+}
+
+
+
+
+/* Education styles */
+
+.maincontenteducation{
+    margin: 10% 0% 24% 0%;
+}
+.maincontenteducation img{
+    width: 250px;
+}
+.myeducationname{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.educationbox{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    border: 3px solid black;
+    transition: 0.9s;
+    box-shadow: 1px 1px 10px black;
+}
+.educationbox img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.clgname{
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    padding-top:10px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.599);
+}
+
+.btech{
+    background-color: rgba(34, 85, 136, 0.596);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    z-index: -1;
+    transition: 0.9s;
+}
+.percentage{
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 4px 6px;
+}
+.educationbox:hover{
+    transform: translatex(-160px);
+}
+.educationbox:hover .btech{
+    transform: translateX(340px);
+}
+
+
+
+
+
+/* Skills Styles */
+
+.skillmain{
+    width: 100%;
+   padding: 10% 0%;
+}
+.maincontentskills img{
+    width: 320px;
+}
+.mytechskillsname{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.webhead{
+    font-family: 'Signika Negative', sans-serif;
+}
+.webtechnology{
+    width: 40%;
+    padding: 20px;
+    box-shadow: 1px 1px 10px blue;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    text-align: center
+}
+.webtechnology .skill{
+    display: inline-block;
+    padding: 4px 8px;
+    margin:10px;
+    background-color: #a5a5a5;
+    border-radius: 4px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+}
+
+
+
+/* Certificates styles */
+
+.certificatemain{
+    padding: 10% 0%;
+}
+.certificatemain h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.certificatemain img{
+        width: 320px;
+}
+.allcertificates{
+    font-family: 'Signika Negative', sans-serif;
+}
+.allinterships{
+    font-family: 'Signika Negative', sans-serif;
+}
+.certificate1{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+.certificate1 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 400px;
+    transition: 0.5s;
+}
+.certificate1:hover img{
+    transform: translateY(-400px);
+}
+.certibox1{
+    background-color: #3590F3;
+}
+.certibox2{
+    background-color: #32DE8A;
+}
+.certibox3{
+    background-color: #FF4A1C;
+}
+.certibox4{
+    background-color: #FEE440;
+}
+.certibox5{
+    background-color: #4B88A2;
+}
+.certibox6{
+    background-color: #F95738;
+}
+.certibox7{
+    background-color: #00AF54;
+}
+.certibox8{
+    background-color: #F7B32B;
+}
+.certibox9{
+    background-color: #4C5C68;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Projects Styles */
+.projectsmain{
+    padding: 8% 0% 10% 0%;
+}
+.projectsmain h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.projectshowcontent{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.projectimg{
+    width: 400px;
+}
+.projectbox{
+    width: 360px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px #258;
+}
+.projectbox img{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    box-shadow: 0px 0px 10px black;
+}
+.shareicon{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size: 30px;
+    background-color: #c7e2ff;
+    padding: 10px 16px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.projecttext{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+}
+.projecttext h2{
+    font-family: 'Signika Negative', sans-serif;
+}
+.projecttechnology{
+    margin-bottom: 18%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.projecttechnology p{
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: #cecccc;
+}
+.projectlinks a{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.projectbox:hover{
+    scale: 1.025;
+    box-shadow: 1px 1px 10px blue;
+}
+
+
+
+
+
+
+
+
+/* Contact Styles */
+
+.contactmain{
+    padding: 8% 0%;
+}
+.contactmain h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.contactmain img{
+    width: 320px;
+}
+.contactbox{
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conatctdetailsbox p{
+    padding: 6px 10px;
+    margin: 18px 0px;
+    background-color: #e5e5e5;
+    box-shadow: 0px 0px 3px black;
+
+}
+.contactformbox input  {
+    display: block;
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 18px;
+    padding: 3px 8px;
+    background-color: #e5e5e5;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px black;
+}
+.contactformbox textarea{
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #e5e5e5;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px black;
+}
+.contactformbox button{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 6px 10px;
+    background-color: #3590F3;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px black;
+}
+
+
+
+
+/* Login Styles */
+
+.loginmain{
+    padding: 8% 0px;
+}
+.loginbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1% 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loginbackimg{
+    margin-bottom: 20px;
+    width: 380px;
+}
+.containerForSignIn{
+    transition: 0.5s;
+    width: 100%;
+    position: absolute;
+    top: 116px;
+    left: -1500px;
+}
+.signInContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C5C68;
+    padding: 80px 0px;
+    position: relative;
+}
+.backButton{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.signInForm{
+    padding-top: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.signincard{
+    margin-top: 50px;
+    position: relative;
+    width: 30%;
+    padding: 15px;
+    background-color: #2a2929;
+    color: white;
+    border-radius: 10px;
+}
+.signincard img{
+    position: absolute;
+    top: -90px;
+    width: 170px;
+    border-radius: 10px;
+}
+.signInForm .input{
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 3px 6px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signInInputs h2 , .signUpInputs h2{
+    font-family: 'Signika Negative', sans-serif;
+}
+.signInInputs p , .signUpInputs p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.checkbox{
+    display: inline;
+}
+.signInForm button{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.backButtonSignUp {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containerForSignUp{
+    transition: 0.5s;
+    width: 100%;
+    position: absolute;
+    top: 116px;
+    left: -1500px;
+}
+.signUpContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C5C68;
+    padding: 50px 0px;
+    position: relative;
+}
+.backButtonSignUp{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.signUpForm{
+    padding-top: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.signUpcard{
+    margin-top: 70px;
+    position: relative;
+    width: 30%;
+    padding: 15px;
+    background-color: #2a2929;
+    color: white;
+    border-radius: 10px;
+}
+.signUpcard img{
+    position: absolute;
+    top: -90px;
+    width: 170px;
+    border-radius: 10px;
+}
+.signUpForm .input{
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 3px 6px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.checkbox{
+    display: inline;
+}
+.signUpForm button{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+
+footer{
+    background-color: #2a2929;
+}
+.footerlist li{
+    float: left;
+}
+.footerlist li a{
+    font-family: 'Signika Negative', sans-serif;
+    letter-spacing: 2px;
+}
+.footericons a{
+    font-size: 26px;
+}
+footer ul li:hover{
+   text-decoration: underline;
+}
+.copyright p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+/* Keyframes for main image */
+
+@keyframes mainimgcolor{
+
+    0%{
+        scale: 0.93;
+        box-shadow: 1px 1px 10px  #258;
+    }
+    25%{
+        box-shadow: 1px 1px 10px  #FF4A1C;
+        rotate: 2deg;
+    }
+    50%{
+        scale: 1;
+        box-shadow: 1px 1px 10px  blue;
+    }
+    75%{
+        box-shadow: 1px 1px 10px  #00AF54;
+        rotate: -2deg;
+    }
+    100%{
+        scale: 0.93;
+        box-shadow: 1px 1px 10px 5px #F95738;
+    }
+}
+
+
+
+/* Media queries for Tab size or 1060px  */
+
+@media (max-width:1060px) {
+    ul{
+        flex-direction: column;
+    }
+    .bars{
+        position: absolute;
+        right: 30px;
+    }
+    .navcontainer{
+        position: absolute;
+        top: 100px;
+        left: -1200px;
+        flex-direction: column;
+        width: 100vw;
+        transition: 0.6s;
+        background-color: #d6d3d3;
+    }
+    .maincontent{
+        margin-top: 50px;
+        padding: 50px;
+        gap: 30px;
+    }
+    .aboutmaintext{
+        width: 90%;
+    }
+
+    .strenths , .hobbies , .goals{
+        width: 100%;
+        height: 350px;
+    }
+    .otherdetails p{
+        text-align: center;
+    }
+    .educationbox{
+        width: 280px;
+        height: 230px;
+        margin: 70px 0px;
+    }
+    .clgname{
+        font-size: 16px;
+    }
+    .educationbox:hover{
+        transform: translatey(-60px);
+    }
+    .educationbox:hover .btech{
+        transform: translatey(227px);
+    }
+    .footereducation{
+        margin-top: 130px;
+    }
+    .webtechnology{
+        flex-direction: column;
+        width: 100%;
+    }
+    .projectbox{
+        width: 340px;
+        height: 500px;
+    }
+    .projectimg{
+        width: 345px;
+    }
+    .contactcontent{
+        flex-direction: column;
+    }
+    .conatctdetailsbox{
+        width: 90%;
+    }
+    .contactformbox{
+        width: 90%;
+    }
+    .conatctdetailsbox p{
+        font-size: 13px;
+    }
+    .contactformbox input{
+        font-size: 16px;
+    }
+    .loginbackimg{
+        width: 300px;
+    }
+}
+
+
+/* Media queries for Mobile or 800px */
+
+@media (max-width:800px){
+    .maincontent{
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .name{
+        font-size: 32px;
+        padding: 4% 0%;
+    }
+    .role{
+        font-size: 20px;
+        padding: 3% 0%;
+        font-weight: 900;
+    }
+    .icons{
+        padding: 3% 0%;
+    }
+    .icons i{
+        font-size: 24px;
+    }
+    .contenthome{
+        padding: 40% 0%;
+    }
+    .readmore{
+        margin: 3% 0%;
+    }
+    .certificatemarquee img{
+        width: 40%;
+        margin: 15px;
+        border: 2px solid black;
+    }
+    .aboutmaintext{
+        padding: 18% 0% 36% 0%;
+    }
+    .maincontenteducation{
+        margin-top: 0%;
+    }
+    .maincontenteducation img{
+        width: 200px;
+    }
+    .myeducationname{
+        font-size: 16px;
+    }
+    .contentleft .mytechskillsname{
+        font-size: 20px;
+    }
+    .maincontentskills{
+        padding: 26% 0% 36% 0%;
+    }
+    .maincontentskills img{
+        padding: 35% 0% 20% 0%;
+        width: 260px;
+    }
+    .certificatemain{
+        padding: 27% 0% 20% 0%;
+    }
+    .certificatemain h1{
+        font-size: 20px;
+    }
+    .certificatemain img{
+        width: 260px;
+        padding: 35% 0% 20% 0%;
+    }
+    .projectsmain{
+        padding: 27% 0% 20% 0%;
+    }
+    .projectsmain h1{
+        font-size: 21px;
+    }
+    .projectimg{
+        width: 315px;
+        padding: 35% 0% 20% 0%;
+    }
+    .projectshowcontent{
+        font-size: 15px;
+    }
+    .contactmain{
+        padding: 27% 0% 20% 0%;
+    }
+    .contactmain h1{
+        font-size: 20px;
+    }
+    .contactmain img{
+        width: 260px;
+        padding: 35% 0% 20% 0%;
+    }
+    .loginmain{
+        padding: 30% 0% 60% 0%;
+    }
+    .signincard{
+        margin-top: 150px;
+        width: 90%;
+    }
+    .signincard img{
+        top: -80px;
+        width: 150px;
+        border-radius: 10px;
+    }
+    .signUpcard{
+        margin-top: 150px;
+        width: 90%;
+    }
+    .signUpcard img{
+        top: -80px;
+        width: 150px;
+        border-radius: 10px;
+    }
+    .topbutton{
+        top: 92%;
+    }
+    .footerlist li{
+        float: initial;
+        margin: 20px;
+        text-align: center;
+    }
+    .decreasesize{
+        display: block;
+        text-align: center;
+        font-size: 14px;
+    }
+    .decreasesize1{
+        font-size: 14px;
+    }
+    .achivecontent{
+        margin: 10px;
+    }
+    .box{
+        width: 300px;
+        height: 290px;
+        margin: 0px;
+    }
+}
+
+
