@@ -56,4 +56,3 @@ backButtonSignUp.onclick = () =>{
 
     containerForSignUp.style.left = "-1500px"
 }
-
