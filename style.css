@@ -182,6 +182,7 @@ nav{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    font-family: 'Signika Negative', sans-serif;
     
 }
 .box img{
@@ -189,6 +190,9 @@ nav{
     height: 100%;
 }
 
+.box button a{
+    font-family: 'Signika Negative', sans-serif;
+}
 .greeks , .codemind , .leetcode , .codecheff , .cyber , .awsbadge{
     top: 0px;
     display: flex;
@@ -203,6 +207,7 @@ nav{
     background-color: rgba(0, 0, 0, 0.714);
     color: white;
     padding: 2px;
+    font-family: 'Signika Negative', sans-serif;
 }
 .box:hover .greeks ,.box:hover .codemind ,.box:hover .leetcode ,.box:hover .codecheff ,.box:hover .cyber ,.box:hover .awsbadge{
     left: 0px;
@@ -227,14 +232,15 @@ nav{
     position: relative;
     width: 350px;
     height: 300px;
-    border: 3px solid black;
     transition: 0.9s;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px blue;
+    border-radius: 10px;
 }
 .educationbox img{
     position: absolute;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 .clgname{
     bottom: 0px;
@@ -257,6 +263,10 @@ nav{
     color: white;
     z-index: -1;
     transition: 0.9s;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px blue;
+
+
 }
 .percentage{
     background-color: white;
