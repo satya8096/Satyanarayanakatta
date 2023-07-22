@@ -578,6 +578,9 @@ nav{
     padding: 80px 0px;
     position: relative;
 }
+.signInContainer button{
+    font-family: 'Signika Negative', sans-serif;
+}
 .backButton{
     font-family: 'Signika Negative', sans-serif;
     position: absolute;
@@ -650,6 +653,9 @@ nav{
     background-color: #4C5C68;
     padding: 50px 0px;
     position: relative;
+}
+.signUpContainer button{
+    font-family: 'Signika Negative', sans-serif;
 }
 .backButtonSignUp{
     position: absolute;
@@ -962,10 +968,10 @@ footer ul li:hover{
     .decreasesize{
         display: block;
         text-align: center;
-        font-size: 12px;
+        font-size: 13px;
     }
     .decreasesize1{
-        font-size: 12px;
+        font-size: 13px;
     }
     .achivecontent{
         margin: 10px;
