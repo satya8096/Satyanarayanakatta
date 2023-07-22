@@ -520,7 +520,7 @@ nav{
 .copyn , .copye ,.copyw , .copya{
     position: absolute;
     right: 10px;
-    top: 1.3px;
+    top: 4px;
     color: white;
     border-radius: 10px;
     font-size: 18px;
@@ -948,6 +948,9 @@ footer ul li:hover{
     }
     .contactmain h1{
         font-size: 20px;
+    }
+    .copyn , .copye ,.copyw , .copya{
+        top: 1.3px;
     }
     .contactmain img{
         width: 260px;
