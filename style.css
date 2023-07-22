@@ -14,7 +14,7 @@ body{
 /* NavBar Styles */
 nav{
     background-color: rgb(244, 244, 244);
-    box-shadow: 1px -4px 10px #258;
+    box-shadow: 1px -4px 10px blue;
 }
 .logo{
     font-size: 50px;
@@ -97,7 +97,7 @@ nav{
 }
 .mainimg{
     border-radius: 10px;
-    animation: mainimgcolor 6s infinite;
+    animation: mainimgcolor 5s infinite;
 }
 .mainimg img{
     transition: 0.5s;
@@ -441,7 +441,7 @@ nav{
 }
 .shareicon{
     position: absolute;
-    top: 35%;
+    top: 34%;
     left: 40%;
     font-size: 30px;
     background-color: #c7e2ff;
@@ -510,6 +510,7 @@ nav{
     margin: 18px 0px;
     background-color: #e5e5e5;
     box-shadow: 0px 0px 3px black;
+    border-radius: 6px;
 
 }
 .contactformbox input  {
@@ -522,6 +523,7 @@ nav{
     border: none;
     outline: none;
     box-shadow: 0px 0px 3px black;
+    border-radius: 6px;
     font-family: 'Signika Negative', sans-serif;
 }
 .contactformbox textarea{
@@ -530,6 +532,7 @@ nav{
     background-color: #e5e5e5;
     border: none;
     outline: none;
+    border-radius: 6px;
     box-shadow: 0px 0px 3px black;
 }
 .contactformbox button{
@@ -541,6 +544,7 @@ nav{
     color: white;
     border: none;
     outline: none;
+    border-radius: 6px;
     box-shadow: 0px 0px 3px black;
 }
 
@@ -968,10 +972,10 @@ footer ul li:hover{
     .decreasesize{
         display: block;
         text-align: center;
-        font-size: 13px;
+        font-size: 12px;
     }
     .decreasesize1{
-        font-size: 13px;
+        font-size: 12px;
     }
     .achivecontent{
         margin: 10px;
