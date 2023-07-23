@@ -1,10 +1,4 @@
-let copynumber = document.querySelector(".number")
-
-let copyemail = document.querySelector(".email")
-
 let copyweb = document.querySelector(".web")
-
-let copyaddress = document.querySelector(".address")
 
 let copiedn = document.querySelector(".copyn")
 
@@ -14,11 +8,17 @@ let copiedw = document.querySelector(".copyw")
 
 let copieda = document.querySelector(".copya")
 
-let numbertext = copynumber.textContent
+let copyemail = document.querySelector(".email")
+
+let copynumber = document.querySelector(".number")
+
+let copyaddress = document.querySelector(".address")
+
+let webtext = copyweb.textContent
 
 let emaitext = copyemail.textContent
 
-let webtext = copyweb.textContent
+let numbertext = copynumber.textContent
 
 let addresstext = copyaddress.textContent
 
@@ -28,25 +28,23 @@ copynumber.onclick = ()=>{
     copiedn.innerHTML = "Copied"
     setTimeout(function(){
         copiedn.innerHTML = ""
-    },300)
+    },400)
 }
-
 
 copyemail.onclick = ()=>{
     navigator.clipboard.writeText(emaitext)
     copiede.innerHTML = "Copied"
     setTimeout(function(){
         copiede.innerHTML = ""
-    },300)
+    },400)
 }
-
 
 copyweb.onclick = ()=>{
     navigator.clipboard.writeText(webtext)
     copiedw.innerHTML = "Copied"
     setTimeout(function(){
         copiedw.innerHTML = ""
-    },300)
+    },400)
 }
 
 copyaddress.onclick = ()=>{
@@ -54,5 +52,5 @@ copyaddress.onclick = ()=>{
     copieda.innerHTML = "Copied"
     setTimeout(function(){
         copieda.innerHTML = ""
-    },300)
+    },400)
 }

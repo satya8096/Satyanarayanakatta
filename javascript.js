@@ -1,9 +1,12 @@
-
-let navcontainer = document.querySelector(".navcontainer")
+// Nav Bar Clicks
 
 let barIcon = document.querySelector(".bars")
 
 let icon = document.querySelector(".bars i")
+
+let navcontainer = document.querySelector(".navcontainer")
+
+// Sign In and Sign Up Clicks
 
 let signInButton = document.querySelector(".signInbutton")
 
@@ -17,7 +20,7 @@ let backButtonSignUp = document.querySelector(".backButtonSignUp")
 
 let containerForSignUp = document.querySelector(".containerForSignUp")
 
-
+// Nav Bar
 
 barIcon.onclick = ()=>{
 
@@ -34,13 +37,12 @@ barIcon.onclick = ()=>{
     containerForSignUp.style.left = "-1500px"
 }
 
-
+// Sign In and Sign Up
 
 signInButton.onclick = () =>{
 
     containerForSignIn.style.left = "0px"
 }
-
 
 backButton.onclick = () =>{
 

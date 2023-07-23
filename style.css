@@ -1,24 +1,41 @@
 /* Google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&family=Itim&family=Kalam:wght@400;700&family=Kanit:wght@300&family=Laila:wght@400;700&family=Libre+Baskerville&family=Merriweather&family=Niconne&family=Oleo+Script&family=Shrikhand&family=Signika+Negative:wght@600;700&family=Ysabeau+Infant:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     letter-spacing: 2px;
+    box-sizing: border-box;
     scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    background-color: white;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #2a2929;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: #FF4A1C;
+    animation: mainimgcolor 5s linear infinite;
+
 }
 body{
     position: relative;
 }
+
 /* NavBar Styles */
+
 nav{
-    background-color: rgb(244, 244, 244);
     box-shadow: 1px -4px 10px blue;
+    background-color: rgb(244, 244, 244);
 }
 .logo{
-    font-size: 50px;
     color: #258;
+    font-size: 50px;
 }
 .logo:hover{
     cursor: pointer;
@@ -27,28 +44,27 @@ nav{
     z-index: 1000;
 }
 .navcontainer .li{
-    margin: 10px 20px;
     font-size: 20px;
+    margin: 10px 20px;
 }
 .navcontainer .li a{
-    color: rgb(18, 18, 18);
     letter-spacing: 2px;
+    color: rgb(18, 18, 18);
     font-family: 'Signika Negative', sans-serif;
 }
-
 .btn1{
     margin-left: 70px;
     letter-spacing: 2px;
     font-family: 'Signika Negative', sans-serif;
 }
 .btn1 a{
-    padding: 20px 8px;
     height: 30px;
+    padding: 20px 8px;
 }
 .bars{
+    right: -200px;
     font-size: 35px;
     position: fixed;
-    right: -200px;
     cursor: pointer;
 }
 .loginbutton:hover{
@@ -61,16 +77,11 @@ nav{
     color: #3590F3;
 }
 
-
-
 /* Nav open Close */
+
 .navcontainer.open{
     left: 0px;
 }
-
-
-
-
 
 /* Maincontent Styles */
 
@@ -78,8 +89,8 @@ nav{
     padding-bottom: 8% ;
 }
 .name{
-    font-family: 'Niconne', cursive;
     font-size: 55px;
+    font-family: 'Niconne', cursive;
     text-shadow: 1px 1px 10px blue;
 }
 .icons{
@@ -104,13 +115,13 @@ nav{
     border-radius: 10px;
 }
 .role{
-    font-family: 'Signika Negative', sans-serif;
     font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .homecertificates{
-    font-family: 'Signika Negative', sans-serif;
     font-weight: 900;
     letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
 }
 .certificatemarquee img{
     width: 30%;
@@ -121,17 +132,18 @@ nav{
 /* Top Button */
 
 .topbutton{
-    position: fixed;
-    right: 18px;
     top: 92%;
-    border-radius: 50%;
+    right: 18px;
+    z-index: 200;
     font-size: 25px;
+    position: fixed;
+    border-radius: 50%;
     background-color: #00AF54;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .topbutton a{
-    padding: 20px 9px;
     color: white;
+    padding: 20px 9px;
 }
 
 /* About styles */
@@ -140,18 +152,18 @@ nav{
     width: 40%;
 }
 .aboutmaintext p{
-    font-family: 'Signika Negative', sans-serif;
-    line-height: 26px;
     font-size: 17px;
     margin: 15px 0px;
+    line-height: 26px;
+    font-family: 'Signika Negative', sans-serif;
 }
 .aboutmaintext button{
-    font-family: 'Signika Negative', sans-serif;
     margin-bottom: 10px;
+    font-family: 'Signika Negative', sans-serif;
 }
 .aboutmehead{
-    font-family: 'Signika Negative', sans-serif;
     letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .strenths , .hobbies , .goals{
@@ -163,8 +175,8 @@ nav{
 }
 .strenths h1, .hobbies h1, .goals h1{
     text-align: center;
-    font-family: 'Signika Negative', sans-serif;
     letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
 }
 .strenths p, .hobbies p, .goals p{
     text-align: center;
@@ -178,102 +190,95 @@ nav{
 .box{
     width: 250px;
     height: 250px;
-    box-shadow: 1px 1px 10px blue;
-    border-radius: 10px;
-    position: relative;
     overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px blue;
     font-family: 'Signika Negative', sans-serif;
-    
 }
 .box img{
     width: 100%;
     height: 100%;
 }
-
 .box button a{
     font-family: 'Signika Negative', sans-serif;
 }
 .greeks , .codemind , .leetcode , .codecheff , .cyber , .awsbadge{
     top: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    left: -600px;
-    transition: 0.6s;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.714);
-    color: white;
+    left: -600px;
     padding: 2px;
+    display: flex;
+    color: white;
+    transition: 0.6s;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.714);
     font-family: 'Signika Negative', sans-serif;
 }
 .box:hover .greeks ,.box:hover .codemind ,.box:hover .leetcode ,.box:hover .codecheff ,.box:hover .cyber ,.box:hover .awsbadge{
     left: 0px;
 }
 
-
-
-
 /* Education styles */
 
 .maincontenteducation{
-    margin: 10% 0% 24% 0%;
+    width: 100%;
+    margin: 12% 0% 26% 0%;
 }
 .maincontenteducation img{
-    width: 250px;
+    width: 265px;
 }
 .myeducationname{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .educationbox{
-    position: relative;
     width: 350px;
     height: 300px;
     transition: 0.9s;
-    box-shadow: 1px 1px 10px blue;
+    position: relative;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px blue;
 }
 .educationbox img{
-    position: absolute;
     width: 100%;
     height: 100%;
+    position: absolute;
     border-radius: 10px;
 }
 .clgname{
     bottom: 0px;
     width: 100%;
+    height: 50px;
     color: white;
     font-size: 20px;
-    height: 50px;
-    padding-top:10px ;
+    padding-top:10px;
     font-family: 'Signika Negative', sans-serif;
     background-color: rgba(0, 0, 0, 0.599);
 }
-
 .btech{
-    background-color: rgba(34, 85, 136, 0.596);
-    font-family: 'Signika Negative', sans-serif;
-    letter-spacing: 2px;
     width: 100%;
     height: 100%;
-    text-align: center;
-    color: white;
     z-index: -1;
+    color: white;
     transition: 0.9s;
+    text-align: center;
+    letter-spacing: 2px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px blue;
-
-
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(34, 85, 136, 0.596);
 }
 .percentage{
-    background-color: white;
-    box-shadow: 0px 0px 1px black;
-    border-radius: 4px;
     color: black;
     padding: 4px 6px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
 }
 .educationbox:hover{
     transform: translatex(-160px);
@@ -281,10 +286,6 @@ nav{
 .educationbox:hover .btech{
     transform: translateX(340px);
 }
-
-
-
-
 
 /* Skills Styles */
 
@@ -296,8 +297,8 @@ nav{
     width: 320px;
 }
 .mytechskillsname{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .webhead{
     font-family: 'Signika Negative', sans-serif;
@@ -305,22 +306,20 @@ nav{
 .webtechnology{
     width: 40%;
     padding: 20px;
-    box-shadow: 1px 1px 10px blue;
+    text-align: center;
     border-radius: 10px;
     margin-bottom: 100px;
-    text-align: center
+    box-shadow: 1px 1px 10px blue;
 }
 .webtechnology .skill{
-    display: inline-block;
-    padding: 4px 8px;
     margin:10px;
-    background-color: #a5a5a5;
-    border-radius: 4px;
-    font-family: 'Signika Negative', sans-serif;
+    padding: 4px 8px;
     font-weight: 100;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #a5a5a5;
+    font-family: 'Signika Negative', sans-serif;
 }
-
-
 
 /* Certificates styles */
 
@@ -328,11 +327,11 @@ nav{
     padding: 10% 0%;
 }
 .certificatemain h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .certificatemain img{
-        width: 320px;
+    width: 320px;
 }
 .allcertificates{
     font-family: 'Signika Negative', sans-serif;
@@ -341,24 +340,24 @@ nav{
     font-family: 'Signika Negative', sans-serif;
 }
 .certificate1{
-    position: relative;
     width: 300px;
     height: 380px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px black;
     margin: 30px;
     display: flex;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    color: white;
+    box-shadow: 1px 1px 10px blue;
 }
 .certificate1 img{
-    position: absolute;
+    top: 400px;
     width: 100%;
     height: 100%;
-    top: 400px;
     transition: 0.5s;
+    position: absolute;
 }
 .certificate1:hover img{
     transform: translateY(-400px);
@@ -391,32 +390,14 @@ nav{
     background-color: #4C5C68;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Projects Styles */
 
 .projectsmain{
     padding: 8% 0% 10% 0%;
 }
 .projectsmain h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .projectshowcontent{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -427,50 +408,50 @@ nav{
 .projectbox{
     width: 360px;
     height: 550px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
     transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
     box-shadow: 1px 1px 10px #258;
 }
 .projectbox img{
-    position: absolute;
     width: 100%;
     height: 40%;
+    position: absolute;
     box-shadow: 0px 0px 10px black;
 }
 .shareicon{
-    position: absolute;
     top: 34%;
     left: 40%;
-    font-size: 30px;
-    background-color: #c7e2ff;
+    font-size: 30px;    
+    cursor: pointer;
+    position: absolute;
     padding: 10px 16px;
     border-radius: 100%;
-    cursor: pointer;
+    background-color: #c7e2ff;
 }
 .projecttext{
-    position: absolute;
     top: 55%;
     width: 100%;
+    position: absolute;
 }
 .projecttext h2{
     font-family: 'Signika Negative', sans-serif;
 }
 .projecttechnology{
-    margin-bottom: 18%;
     width: 100%;
     display: flex;
+    margin-bottom: 18%;
     align-items: center;
     justify-content: center;
     font-family: 'Signika Negative', sans-serif;
 }
 .projecttechnology p{
-    display: inline-block;
     margin: 10px;
     font-size: 18px;
     padding: 3px 8px;
     border-radius: 5px;
+    display: inline-block;
     background-color: #cecccc;
 }
 .projectlinks a{
@@ -482,21 +463,14 @@ nav{
     box-shadow: 1px 1px 10px blue;
 }
 
-
-
-
-
-
-
-
 /* Contact Styles */
 
 .contactmain{
     padding: 8% 0%;
 }
 .contactmain h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
 }
 .contactmain img{
     width: 320px;
@@ -506,63 +480,60 @@ nav{
     font-family: 'Signika Negative', sans-serif;
 }
 .conatctdetailsbox p{
-    position: relative;
-    padding: 6px 10px;
-    margin: 18px 0px;
-    background-color: #e5e5e5; 
+    margin: 18px 0px; 
     transition: 0.3s;
-    box-shadow: 0px 0px 3px black;
-
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 6px;
+    background-color: #e5e5e5;
+    box-shadow: 0px 0px 3px blue;
 }
 .conatctdetailsbox p:hover{
     background-color: rgb(191, 215, 240);
 }
 .copyn , .copye ,.copyw , .copya{
-    position: absolute;
-    right: 10px;
     top: 4px;
+    right: 10px;
     color: white;
-    border-radius: 10px;
     font-size: 18px;
+    position: absolute;
+    border-radius: 10px;
     background-color: #2a2929;
 }
-.contactformbox input  {
-    display: block;
-    margin: 20px 0px;
+.contactformbox input{
     width: 100%;
-    font-size: 18px;
-    padding: 3px 8px;
-    background-color: #e5e5e5;
     border: none;
     outline: none;
-    box-shadow: 0px 0px 3px black;
+    display: block;
+    font-size: 18px;
+    padding: 3px 8px;
+    margin: 20px 0px;
     border-radius: 6px;
+    background-color: #e5e5e5;
+    box-shadow: 0px 0px 3px blue;
     font-family: 'Signika Negative', sans-serif;
 }
 .contactformbox textarea{
     width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
     padding: 10px 12px;
     background-color: #e5e5e5;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px blue;
 }
 .contactformbox button{
-    display: block;
     width: 100%;
-    margin: 10px 0px;
-    padding: 6px 10px;
-    background-color: #3590F3;
-    color: white;
     border: none;
     outline: none;
+    display: block;
+    color: white;
+    margin: 10px 0px;
+    padding: 6px 10px;
     border-radius: 6px;
-    box-shadow: 0px 0px 3px black;
+    background-color: #3590F3;
+    box-shadow: 0px 0px 3px blue;
 }
-
-
-
 
 /* Login Styles */
 
@@ -570,71 +541,71 @@ nav{
     padding: 8% 0px;
 }
 .loginbuttons{
+    margin: 1% 4%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 1% 4%;
     font-family: 'Signika Negative', sans-serif;
 }
 .loginbackimg{
-    margin-bottom: 20px;
     width: 380px;
+    margin-bottom: 20px;
 }
 .containerForSignIn{
-    transition: 0.5s;
-    width: 100%;
-    position: absolute;
     top: 116px;
+    width: 100%;
     left: -1500px;
+    transition: 0.5s;
+    position: absolute;
 }
 .signInContainer{
     display: flex;
+    padding: 80px 0px;
+    position: relative;
     align-items: center;
     justify-content: center;
     background-color: #4C5C68;
-    padding: 80px 0px;
-    position: relative;
 }
 .signInContainer button{
     font-family: 'Signika Negative', sans-serif;
 }
 .backButton{
-    font-family: 'Signika Negative', sans-serif;
-    position: absolute;
     top: 30px;
     left: 30px;
+    position: absolute;
+    font-family: 'Signika Negative', sans-serif;
 }
 .signInForm{
-    padding-top: 75px;
     width: 100%;
     display: flex;
+    padding-top: 75px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .signincard{
-    margin-top: 50px;
-    position: relative;
     width: 30%;
     padding: 15px;
-    background-color: #2a2929;
     color: white;
+    margin-top: 50px;
+    position: relative;
     border-radius: 10px;
+    background-color: #2a2929;
 }
 .signincard img{
-    position: absolute;
     top: -90px;
     width: 170px;
+    position: absolute;
     border-radius: 10px;
 }
 .signInForm .input{
-    display: block;
-    margin: 10px 0px;
     width: 100%;
-    padding: 3px 6px;
-    border-radius: 6px;
     border: none;
     outline: none;
+    display: block;
+    margin: 10px 0px;
+    padding: 3px 6px;
+    border-radius: 6px;
     font-family: 'Signika Negative', sans-serif;
 }
 .signInInputs h2 , .signUpInputs h2{
@@ -650,66 +621,63 @@ nav{
     width: 100%;
     font-family: 'Signika Negative', sans-serif;
 }
-
-
 .backButtonSignUp {
     font-family: 'Signika Negative', sans-serif;
 }
-
 .containerForSignUp{
-    transition: 0.5s;
-    width: 100%;
-    position: absolute;
     top: 116px;
+    width: 100%;
     left: -1500px;
+    transition: 0.5s;
+    position: absolute;
 }
 .signUpContainer{
     display: flex;
+    padding: 50px 0px;
+    position: relative;
     align-items: center;
     justify-content: center;
     background-color: #4C5C68;
-    padding: 50px 0px;
-    position: relative;
 }
 .signUpContainer button{
     font-family: 'Signika Negative', sans-serif;
 }
 .backButtonSignUp{
-    position: absolute;
     top: 30px;
     left: 30px;
+    position: absolute;
 }
 .signUpForm{
-    padding-top: 75px;
     width: 100%;
     display: flex;
+    padding-top: 75px;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 .signUpcard{
-    margin-top: 70px;
-    position: relative;
     width: 30%;
     padding: 15px;
-    background-color: #2a2929;
     color: white;
+    margin-top: 70px;
+    position: relative;
     border-radius: 10px;
+    background-color: #2a2929;
 }
 .signUpcard img{
-    position: absolute;
     top: -90px;
     width: 170px;
+    position: absolute;
     border-radius: 10px;
 }
 .signUpForm .input{
-    display: block;
-    margin: 10px 0px;
     width: 100%;
-    padding: 3px 6px;
-    border-radius: 6px;
     border: none;
     outline: none;
+    display: block;
+    margin: 10px 0px;
+    padding: 3px 6px;
+    border-radius: 6px;
     font-family: 'Signika Negative', sans-serif;
 }
 .checkbox{
@@ -720,14 +688,6 @@ nav{
     font-family: 'Signika Negative', sans-serif;
 }
 
-
-
-
-
-
-
-
-
 /* Footer Styles */
 
 footer{
@@ -737,8 +697,8 @@ footer{
     float: left;
 }
 .footerlist li a{
-    font-family: 'Signika Negative', sans-serif;
     letter-spacing: 2px;
+    font-family: 'Signika Negative', sans-serif;
 }
 .footericons a{
     font-size: 26px;
@@ -747,10 +707,9 @@ footer ul li:hover{
    text-decoration: underline;
 }
 .copyright p{
-    font-family: 'Signika Negative', sans-serif;
     letter-spacing: 1px;
+    font-family: 'Signika Negative', sans-serif;
 }
-
 
 /* Keyframes for main image */
 
@@ -761,24 +720,22 @@ footer ul li:hover{
         box-shadow: 1px 1px 10px  #258;
     }
     25%{
-        box-shadow: 1px 1px 10px  #FF4A1C;
         rotate: 2deg;
+        box-shadow: 1px 1px 10px  #FF4A1C;
     }
     50%{
         scale: 1;
         box-shadow: 1px 1px 10px  blue;
     }
     75%{
-        box-shadow: 1px 1px 10px  #00AF54;
         rotate: -2deg;
+        box-shadow: 1px 1px 10px  #00AF54;
     }
     100%{
         scale: 0.93;
         box-shadow: 1px 1px 10px 5px #F95738;
     }
 }
-
-
 
 /* Media queries for Tab size or 1060px  */
 
@@ -787,27 +744,26 @@ footer ul li:hover{
         flex-direction: column;
     }
     .bars{
-        position: absolute;
         right: 30px;
+        position: absolute;
     }
     .navcontainer{
-        position: absolute;
         top: 100px;
-        left: -1200px;
-        flex-direction: column;
         width: 100vw;
+        left: -1200px;
         transition: 0.6s;
+        position: absolute;
+        flex-direction: column;
         background-color: #d6d3d3;
     }
     .maincontent{
-        margin-top: 50px;
-        padding: 50px;
         gap: 30px;
+        padding: 50px;
+        margin-top: 50px;
     }
     .aboutmaintext{
         width: 90%;
     }
-
     .strenths , .hobbies , .goals{
         width: 100%;
         height: 350px;
@@ -833,8 +789,8 @@ footer ul li:hover{
         margin-top: 130px;
     }
     .webtechnology{
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
     }
     .projectbox{
         width: 340px;
@@ -863,22 +819,21 @@ footer ul li:hover{
     }
 }
 
-
 /* Media queries for Mobile or 800px */
 
 @media (max-width:800px){
     .maincontent{
+        gap: 30px;
         margin-top: 50px;
         flex-direction: column;
-        gap: 30px;
     }
     .name{
-        font-size: 32px;
         padding: 4% 0%;
+        font-size: 32px;
     }
     .role{
-        font-size: 20px;
         padding: 3% 0%;
+        font-size: 20px;
         font-weight: 900;
     }
     .icons{
@@ -908,7 +863,8 @@ footer ul li:hover{
         width: 200px;
     }
     .myeducationname{
-        font-size: 16px;
+        margin-bottom: 12%;
+        font-size: 17px;
     }
     .contentleft .mytechskillsname{
         font-size: 20px;
@@ -917,8 +873,8 @@ footer ul li:hover{
         padding: 26% 0% 36% 0%;
     }
     .maincontentskills img{
-        padding: 35% 0% 20% 0%;
         width: 260px;
+        padding: 35% 0% 20% 0%;
     }
     .certificatemain{
         padding: 27% 0% 20% 0%;
@@ -960,8 +916,8 @@ footer ul li:hover{
         padding: 30% 0% 60% 0%;
     }
     .signincard{
-        margin-top: 150px;
         width: 90%;
+        margin-top: 150px;
     }
     .signincard img{
         top: -80px;
@@ -969,8 +925,8 @@ footer ul li:hover{
         border-radius: 10px;
     }
     .signUpcard{
-        margin-top: 150px;
         width: 90%;
+        margin-top: 150px;
     }
     .signUpcard img{
         top: -80px;
@@ -981,14 +937,14 @@ footer ul li:hover{
         top: 92%;
     }
     .footerlist li{
-        float: initial;
         margin: 20px;
+        float: initial;
         text-align: center;
     }
     .decreasesize{
         display: block;
-        text-align: center;
         font-size: 12px;
+        text-align: center;
     }
     .decreasesize1{
         font-size: 12px;
@@ -997,10 +953,8 @@ footer ul li:hover{
         margin: 10px;
     }
     .box{
+        margin: 0px;
         width: 300px;
         height: 290px;
-        margin: 0px;
     }
 }
-
-
