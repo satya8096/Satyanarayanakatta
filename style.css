@@ -406,8 +406,8 @@ nav{
     width: 400px;
 }
 .projectbox{
-    width: 360px;
-    height: 550px;
+    width: 320px;
+    height: 400px;
     transition: 0.5s;
     overflow: hidden;
     position: relative;
@@ -431,17 +431,18 @@ nav{
     background-color: #c7e2ff;
 }
 .projecttext{
-    top: 55%;
+    top: 48%;
     width: 100%;
     position: absolute;
 }
 .projecttext h2{
     font-family: 'Signika Negative', sans-serif;
+    font-size: 22px;
 }
 .projecttechnology{
     width: 100%;
     display: flex;
-    margin-bottom: 18%;
+    margin-bottom: 14%;
     align-items: center;
     justify-content: center;
     font-family: 'Signika Negative', sans-serif;
@@ -456,6 +457,7 @@ nav{
 }
 .projectlinks a{
     font-size: 18px;
+    font-weight: bold;
     font-family: 'Signika Negative', sans-serif;
 }
 .projectbox:hover{
