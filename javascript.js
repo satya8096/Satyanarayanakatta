@@ -1,24 +1,24 @@
 // Nav Bar Clicks
 
-let barIcon = document.querySelector(".bars")
+let barIcon = document.querySelector(".bars");
 
-let icon = document.querySelector(".bars i")
+let icon = document.querySelector(".bars i");
 
-let navcontainer = document.querySelector(".navcontainer")
+let navcontainer = document.querySelector(".navcontainer");
 
 // Sign In and Sign Up Clicks
 
-let signInButton = document.querySelector(".signInbutton")
+let signInButton = document.querySelector(".signInbutton");
 
-let backButton = document.querySelector(".backButton")
+let backButton = document.querySelector(".backButton");
 
-let containerForSignIn = document.querySelector(".containerForSignIn")
+let containerForSignIn = document.querySelector(".containerForSignIn");
 
-let signUpButton = document.querySelector(".signUpbutton")
+let signUpButton = document.querySelector(".signUpbutton");
 
-let backButtonSignUp = document.querySelector(".backButtonSignUp")
+let backButtonSignUp = document.querySelector(".backButtonSignUp");
 
-let containerForSignUp = document.querySelector(".containerForSignUp")
+let containerForSignUp = document.querySelector(".containerForSignUp");
 
 // Nav Bar
 
@@ -42,6 +42,7 @@ barIcon.onclick = ()=>{
 signInButton.onclick = () =>{
 
     containerForSignIn.style.left = "0px"
+
 }
 
 backButton.onclick = () =>{
