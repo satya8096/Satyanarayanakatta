@@ -745,21 +745,18 @@ footer ul li:hover{
 @keyframes mainimgcolor{
 
     0%{
-        scale: 0.95;
         box-shadow: 1px 1px 10px  #258;
     }
     25%{
         box-shadow: 1px 1px 10px  #FF4A1C;
     }
     50%{
-        scale: 1;
         box-shadow: 1px 1px 10px  blue;
     }
     75%{
         box-shadow: 1px 1px 10px  #00AF54;
     }
     100%{
-        scale: 0.95;
         box-shadow: 1px 1px 10px 5px #F95738;
     }
 }
