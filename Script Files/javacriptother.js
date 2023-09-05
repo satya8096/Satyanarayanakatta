@@ -15,7 +15,6 @@ let Nav =
 <li class="li"><a href="./contactme.html" class="text-decoration-none">contact me</a></li>
 </ul>
 <div>
-<button class="m-3 btn1 btn btn-outline-primary"><a href="./login.html" class=" loginbutton text-decoration-none">Login <span class="m-1"><i class="fa-solid fa-arrow-right-from-bracket"></i></span></a></button>
 </div>`
 
 navContainer.innerHTML = Nav
