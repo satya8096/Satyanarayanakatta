@@ -1,6 +1,6 @@
 /* Google fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&family=Itim&family=Kalam:wght@400;700&family=Kanit:wght@300&family=Laila:wght@400;700&family=Libre+Baskerville&family=Merriweather&family=Niconne&family=Oleo+Script&family=Shrikhand&family=Signika+Negative:wght@600;700&family=Ysabeau+Infant:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alata&family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&family=Itim&family=Kalam:wght@400;700&family=Kanit:wght@300&family=Kurale&family=Laila:wght@400;700&family=Libre+Baskerville&family=Merriweather&family=Niconne&family=Nosifer&family=Oleo+Script&family=Oooh+Baby&family=Pacifico&family=Philosopher:wght@700&family=Poppins:wght@700&family=Sacramento&family=Shrikhand&family=Signika+Negative:wght@600;700&family=Tenali+Ramakrishna&family=Ysabeau+Infant:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -9,18 +9,25 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar{
-    background-color: white;
+    width: 15px;
 }
 ::-webkit-scrollbar-track{
-    background-color: white;
+    background-color: rgb(215, 234, 240);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #2a2929;
+    background-color: #00AF54;
     border-radius: 20px;
-    border: 2px solid rgb(255, 0, 0);
-    box-shadow: #FF4A1C;
+}
 
+.dark{
+    background-color: #2a2929;
+}
+
+p,a{
+    font-family: 'Ysabeau Infant','san-serif';
+    font-weight: 600;
 }
 body{
     position: relative;
@@ -44,6 +51,14 @@ nav{
 }
 .navcontainer{
     z-index: 1000;
+    margin-left: 13rem;
+}
+.night-mode{
+    width: 2.6%;
+    cursor: pointer;
+}
+.light{
+    color: white;
 }
 .navcontainer .li{
     font-size: 20px;
@@ -53,7 +68,7 @@ nav{
 .navcontainer .li a{
     letter-spacing: 2px;
     color: rgb(18, 18, 18);
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .bars{
     right: -200px;
@@ -79,8 +94,9 @@ nav{
 
 /* Maincontent Styles */
 
-.homemain{
-    padding-bottom: 8% ;
+.maincontent{
+    padding: 9%  1%;
+    /* background-color: black; */
 }
 .name{
     font-size: 55px;
@@ -97,16 +113,15 @@ nav{
 .icons a{
     text-decoration: none;
 }
-.readmore{
-    font-family: 'Signika Negative', sans-serif;
-}
 .mainimg{
     border-radius: 10px;
-    animation: mainimgcolor 5s infinite;
 }
 .mainimg img{
     transition: 0.5s;
-    border-radius: 10px;
+    border-radius: 50%;
+    outline: 3px solid #F7B32B;
+    outline-offset: 10px;
+    animation: mainimgcolor 5s infinite;
 }
 .role{
     font-weight: bold;
@@ -141,8 +156,6 @@ nav{
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    font-family: 'Signika Negative', sans-serif;
-
 }
 
 /* Top Button */
@@ -155,11 +168,12 @@ nav{
     position: fixed;
     border-radius: 50%;
     background-color: #00AF54;
+    animation: topAnimation 3s infinite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .topbutton a{
     color: white;
-    padding: 20px 9px;
+    padding: 24px 9px;
 }
 
 /* About styles */
@@ -171,11 +185,9 @@ nav{
     font-size: 17px;
     margin: 15px 0px;
     line-height: 26px;
-    font-family: 'Signika Negative', sans-serif;
 }
 .aboutmaintext button{
     margin-bottom: 10px;
-    font-family: 'Signika Negative', sans-serif;
 }
 .aboutmehead{
     letter-spacing: 2px;
@@ -196,7 +208,6 @@ nav{
 }
 .strenths p, .hobbies p, .goals p{
     text-align: center;
-    font-family: 'Signika Negative', sans-serif;
 }
 .achivehead{
     margin-top: 70px;
@@ -216,9 +227,6 @@ nav{
     width: 100%;
     height: 100%;
 }
-.box button a{
-    font-family: 'Signika Negative', sans-serif;
-}
 .greeks , .codemind , .leetcode , .codecheff , .cyber , .awsbadge{
     top: 0px;
     width: 100%;
@@ -233,7 +241,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.714);
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .box:hover .greeks ,.box:hover .codemind ,.box:hover .leetcode ,.box:hover .codecheff ,.box:hover .cyber ,.box:hover .awsbadge{
     left: 0px;
@@ -243,14 +251,13 @@ nav{
 
 .maincontenteducation{
     width: 100%;
-    margin: 12% 0% 26% 0%;
 }
 .maincontenteducation img{
-    width: 265px;
+    width: 20rem;
 }
 .myeducationname{
     font-weight: bold;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .educationbox{
     width: 350px;
@@ -287,7 +294,7 @@ nav{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 1px 1px 10px blue;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
     background-color: rgba(34, 85, 136, 0.596);
 }
 .btech h2 , .btech h3{
@@ -313,23 +320,29 @@ nav{
     width: 100%;
     padding: 10% 0%;
 }
+.contentleft h1{
+    color: #8C52FF;
+    font-family: 'Ysabeau Infant','san-serif';
+}
 .maincontentskills img{
-    width: 320px;
+    width: 22rem;
 }
 .mytechskillsname{
     font-weight: bold;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .webhead{
     font-family: 'Signika Negative', sans-serif;
+    color: #FF4A1C;
 }
 .webtechnology{
     width: 40%;
+    height: 15rem;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 100px;
-    box-shadow: 1px 1px 10px blue;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 10px #F7B32B;
 }
 .webtechnology .skill{
     margin:10px;
@@ -337,7 +350,8 @@ nav{
     font-weight: 100;
     border-radius: 4px;
     display: inline-block;
-    background-color: #a5a5a5;
+    color: white;
+    background-color: #3590F3;
     font-family: 'Signika Negative', sans-serif;
 }
 
@@ -348,7 +362,7 @@ nav{
 }
 .certificatemain h1{
     font-weight: bold;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .certificatemain img{
     width: 320px;
@@ -417,7 +431,7 @@ nav{
 }
 .projectsmain h1{
     font-weight: bold;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .projectshowcontent{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -441,12 +455,12 @@ nav{
     box-shadow: 0px 0px 10px black;
 }
 .shareicon{
-    top: 34%;
+    top: 33%;
     left: 40%;
     font-size: 22px;    
     cursor: pointer;
     position: absolute;
-    padding: 10px 16px;
+    padding: 12px 16px;
     border-radius: 100%;
     background-color: #c7e2ff;
 }
@@ -478,7 +492,6 @@ nav{
 .projectlinks a{
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Signika Negative', sans-serif;
 }
 .projectbox:hover{
     scale: 1.025;
@@ -490,9 +503,12 @@ nav{
 .contactmain{
     padding: 8% 0%;
 }
+/* .contactmeBack{
+    background-color:  rgb(217, 239, 239);
+} */
 .contactmain h1{
     font-weight: bold;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .contactmain img{
     width: 320px;
@@ -533,7 +549,7 @@ nav{
     border-radius: 6px;
     background-color: #e5e5e5;
     box-shadow: 0px 0px 3px blue;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Ysabeau Infant','san-serif';
 }
 .contactformbox input:focus{
     border: 2px solid blue;
@@ -545,6 +561,7 @@ nav{
     border-radius: 6px;
     padding: 10px 12px;
     background-color: #e5e5e5;
+    font-family: 'Ysabeau Infant','san-serif';
     box-shadow: 0px 0px 3px blue;
 }
 .contactformbox textarea:focus{
@@ -573,7 +590,6 @@ footer{
 }
 .footerlist li a{
     letter-spacing: 2px;
-    font-family: 'Signika Negative', sans-serif;
 }
 .footericons a{
     font-size: 26px;
@@ -583,7 +599,6 @@ footer ul li:hover{
 }
 .copyright p{
     letter-spacing: 1px;
-    font-family: 'Signika Negative', sans-serif;
 }
 
 /* Keyframes for main image */
@@ -607,6 +622,19 @@ footer ul li:hover{
     }
 }
 
+/* KeyFrames for Top Button */
+@keyframes topAnimation {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
 /* Media queries for Tab size or 1060px  */
 
 @media (max-width:1060px) {
@@ -622,9 +650,13 @@ footer ul li:hover{
         width: 100vw;
         left: -1200px;
         transition: 0.6s;
+        margin-left: 0rem;
         position: absolute;
         flex-direction: column;
         background-color: #d6d3d3;
+    }
+    .night-mode{
+        width: 10%;
     }
     .maincontent{
         gap: 30px;
@@ -666,6 +698,7 @@ footer ul li:hover{
     }
     .webtechnology{
         width: 100%;
+        height: 25rem;
         flex-direction: column;
     }
     .projectbox{

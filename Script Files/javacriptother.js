@@ -5,14 +5,15 @@ const navContainer = document.querySelector(".navcontainer");
 // Nav Bar
 
 let Nav = 
-`<ul class="text-capitalize list-unstyled mt-2 d-flex align-items-center justify-content-between flex-wrap">
-<li class="li"><a href="./index.html" class="text-decoration-none">home</a></li>
-<li class="li"><a href="./about.html" class="text-decoration-none">about</a></li>
-<li class="li"><a href="./education.html" class="text-decoration-none">education</a></li>
-<li class="li"><a href="./skills.html" class="text-decoration-none">skills</a></li>
-<li class="li"><a href="./certificates.html" class="text-decoration-none">certificates</a></li>
-<li class="li"><a href="./projects.html" class="text-decoration-none">projects</a></li>
-<li class="li"><a href="./contactme.html" class="text-decoration-none">contact me</a></li>
+`<ul class="text-capitalize list-unstyled mt-2 d-flex align-items-center flex-wrap">
+<li class="li"><a href="./index.html" class="nav-link1 text-decoration-none">home</a></li>
+<li class="li"><a href="./about.html" class="nav-link2 text-decoration-none">about</a></li>
+<li class="li"><a href="./education.html" class="nav-link3 text-decoration-none">education</a></li>
+<li class="li"><a href="./skills.html" class="nav-link4 text-decoration-none">skills</a></li>
+<li class="li"><a href="./certificates.html" class="nav-link5 text-decoration-none">certificates</a></li>
+<li class="li"><a href="./projects.html" class="nav-link6 text-decoration-none">projects</a></li>
+<li class="li"><a href="./contactme.html" class="nav-link7 text-decoration-none">contact me</a></li>
+<img src="./images/moon_2116191.png" class="night-mode" alt="" style="display:inline;">
 </ul>
 <div>
 </div>`

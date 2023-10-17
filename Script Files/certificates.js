@@ -23,8 +23,9 @@ const certificates = [
 ];
 
 const internshipCertificates = [
-    {title:"AWS Internship",img:"./images/AWS internship certificate.jpg",class1:"certibox1"},
-    {title:"Web Development",img:"./images/web development.png",class1:"certibox2"},
+    {title:"AWS DevOps Internship",img:"./images/AWS internship certificate.jpg",class1:"certibox1"},
+    {title:"AWS Cloud Internship",img:"./images/AWS Cloud Certificate.jpg",class1:"certibox7"},
+    {title:"Web Development",img:"./images/web development.png",class1:"certibox5"},
     {title:"InternShip and Job preparation",img:"./images/internshala.png",class1:"certibox3"},
     {title:"FRT Internship",img:"./images/FRT.png",class1:"certibox4"}
 ];
