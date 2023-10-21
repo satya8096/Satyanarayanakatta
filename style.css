@@ -24,6 +24,11 @@
 .dark{
     background-color: #2a2929;
 }
+.add-border{
+    outline: 3px solid #F7B32B;
+    outline-offset: 10px;
+    animation: mainimgcolor 5s infinite;
+}
 
 p,a{
     font-family: 'Ysabeau Infant','san-serif';
@@ -254,6 +259,8 @@ nav{
 }
 .maincontenteducation img{
     width: 20rem;
+    transition: 0.5s;
+    border-radius: 50%;
 }
 .myeducationname{
     font-weight: bold;
@@ -325,7 +332,9 @@ nav{
     font-family: 'Ysabeau Infant','san-serif';
 }
 .maincontentskills img{
-    width: 22rem;
+    width: 20rem;
+    transition: 0.5s;
+    border-radius: 50%;
 }
 .mytechskillsname{
     font-weight: bold;
@@ -366,6 +375,7 @@ nav{
 }
 .certificatemain img{
     width: 320px;
+    transition: 0.5s;
 }
 .allcertificates{
     font-family: 'Signika Negative', sans-serif;
@@ -437,7 +447,9 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .projectimg{
-    width: 400px;
+    width: 335px;
+    transition: 0.5s;
+    border-radius: 50%;
 }
 .projectbox{
     width: 320px;
@@ -503,15 +515,14 @@ nav{
 .contactmain{
     padding: 8% 0%;
 }
-/* .contactmeBack{
-    background-color:  rgb(217, 239, 239);
-} */
 .contactmain h1{
     font-weight: bold;
     font-family: 'Ysabeau Infant','san-serif';
 }
 .contactmain img{
     width: 320px;
+    transition: 0.5s;
+    border-radius: 50%;
 }
 .contactbox{
     width: 40%;
