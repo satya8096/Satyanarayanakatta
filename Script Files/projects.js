@@ -19,6 +19,9 @@ var projects = [
     { img:"./projectimages/footstore.png",live:"https://footwear-store-by-satyanarayana.netlify.app/",
         title:"FootWear Store ",class1:"mt-5 ms-4 me-4",git:"https://github.com/satya8096/FootStore-by-satyanarayana",
         tech: 3 },
+    {img:"./projectimages/Tudo list1.png",live:"https://react-tudo-list-by-satya.netlify.app/",
+        title:"Tudo List",class1:"projectlinks ms-3 me-3",git:"https://github.com/satya8096",
+        tech: 5 },
     {img:"./projectimages/calculator.png",live:"https://calculator-by-satyanarayana.netlify.app/",
         title:"Calculator",class1:"mt-5 ms-4 me-4",git:"https://github.com/satya8096/Calculator-by-satyanarayana",
         tech: 3 },
@@ -115,6 +118,7 @@ let technologies1 = ["HTML","CSS","JavaScript","ReactJs"];
 let technologies2 = ["HTML","CSS"];
 let technologies3 = ["HTML","CSS","JavaScript"];
 let technologies4 = ["HTML","CSS","JavaScript","Bootstrap5"];
+let technologies5 = ["HTML","CSS","JavaScript","React Js"];
 
 
 const projectBox1 = technologies1.map(function(value){
@@ -130,6 +134,9 @@ const projectBox4 = technologies4.map(function(value){
     return `<p>${value}</p>`
 });
 
+const projectBox5 = technologies5.map(function(value){
+    return`<p>${value}</p>`
+})
 
 
 
@@ -143,6 +150,9 @@ let projectBoxs = projects.map(function(box){
     }
     else if(box.tech==4){
         key1 = projectBox4.join("")
+    }
+    else if(box.tech==5){
+        key1 = projectBox5.join("")
     }
     return `
     <div class = projectbox>
