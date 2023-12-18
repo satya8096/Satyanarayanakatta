@@ -19,8 +19,14 @@ var projects = [
     { img:"./projectimages/footstore.png",live:"https://footwear-store-by-satyanarayana.netlify.app/",
         title:"FootWear Store ",class1:"mt-5 ms-4 me-4",git:"https://github.com/satya8096/FootStore-by-satyanarayana",
         tech: 3 },
-    {img:"./projectimages/Tudo list1.png",live:"https://react-tudo-list-by-satya.netlify.app/",
-        title:"Tudo List",class1:"projectlinks ms-3 me-3",git:"https://github.com/satya8096",
+    {img:"./projectimages/Tudo list1.png",live:"https://tudo-list-react-by-satyanarayana.netlify.app/",
+        title:"Tudo List",class1:"projectlinks ms-3 me-3",git:"https://github.com/satya8096/Tudo-List-By-satyanarayana",
+        tech: 5 },
+    {img:"./projectimages/cocktail img.png",live:"https://cocktail-drinks-by-satyanarayana.netlify.app/",
+        title:"Cock Tail Drinks",class1:"projectlinks ms-3 me-3",git:"https://github.com/satya8096/Cock-Tail-Project-by-satyanarayana",
+        tech: 5 },
+    {img:"./projectimages/user details api.png",live:"https://user-details-fetch-by-satyanarayana.netlify.app/",
+        title:"User Details Fetch",class1:"projectlinks ms-3 me-3",git:"https://github.com/satya8096/User-details-fetch-by-satyanarayana",
         tech: 5 },
     {img:"./projectimages/calculator.png",live:"https://calculator-by-satyanarayana.netlify.app/",
         title:"Calculator",class1:"mt-5 ms-4 me-4",git:"https://github.com/satya8096/Calculator-by-satyanarayana",
@@ -114,11 +120,11 @@ showprojects.innerHTML = `Showing ${projectLength} Projects`;
 
 
 
-let technologies1 = ["HTML","CSS","JavaScript","ReactJs"];
-let technologies2 = ["HTML","CSS"];
-let technologies3 = ["HTML","CSS","JavaScript"];
-let technologies4 = ["HTML","CSS","JavaScript","Bootstrap5"];
-let technologies5 = ["HTML","CSS","JavaScript","React Js"];
+let technologies1 = ["HTML5","CSS3","JavaScript","ReactJs"];
+let technologies2 = ["HTML5","CSS3"];
+let technologies3 = ["HTML5","CSS3","JavaScript"];
+let technologies4 = ["HTML5","CSS3","JavaScript","Bootstrap5"];
+let technologies5 = ["HTML5","CSS3","JavaScript","React Js"];
 
 
 const projectBox1 = technologies1.map(function(value){
